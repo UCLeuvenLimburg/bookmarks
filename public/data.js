@@ -1,5 +1,6 @@
 function createBookmarks(addBookmark) {
-    [{
+    [
+        {
             label: 'Haskell Hierarchical Libraries',
             url: "https://downloads.haskell.org/~ghc/latest/docs/html/libraries/index.html",
             tags: ['Haskell', 'library', 'reference'],
