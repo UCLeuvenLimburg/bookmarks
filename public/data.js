@@ -516,8 +516,20 @@ function createBookmarks(addBookmark) {
         {
             label: "C++",
             url: "http://www.cplusplus.com/",
-            tags: [`C++`, `programming language`],
+            tags: [`C++`, `programming language`, 'reference', 'tutorial'],
             description: `Performance oriented programming language`,
+        },
+        {
+            label: "C#",
+            url: "https://docs.microsoft.com/en-gb/dotnet/csharp/",
+            tags: [`C#`, `programming language`, 'reference', 'tutorial'],
+            description: `Programming language`,
+        },
+        {
+            label: "F#",
+            url: "https://dotnet.microsoft.com/languages/fsharp",
+            tags: [`programming language`, 'reference', 'tutorial'],
+            description: `Programming language`,
         },
         {
             label: "Squeak",
