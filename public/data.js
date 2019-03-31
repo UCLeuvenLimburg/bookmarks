@@ -480,19 +480,25 @@ function createBookmarks(addBookmark) {
         {
             label: "Scala",
             url: "https://www.scala-lang.org/",
-            tags: ['Scala', 'Java', `software`, `programming language`],
+            tags: ['Java', `software`, `programming language`],
             description: `Advanced programming language targeting the JVM`,
         },
         {
             label: "Clojure",
             url: "https://clojure.org/",
-            tags: ['Clojure', 'Java', `software`, `programming language`],
+            tags: ['Java', `software`, `programming language`],
             description: `Programming language targeting the JVM`,
         },
         {
             label: "Kotlin",
             url: "https://kotlinlang.org/",
-            tags: ['Kotlin', 'Java', `software`, `programming language`],
+            tags: ['Java', `software`, `programming language`],
+            description: `Programming language targeting the JVM`,
+        },
+        {
+            label: "Groovy",
+            url: "http://groovy-lang.org/",
+            tags: ['Java', `software`, `programming language`],
             description: `Programming language targeting the JVM`,
         },
     ].forEach(addBookmark);
