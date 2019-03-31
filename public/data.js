@@ -477,5 +477,11 @@ function createBookmarks(addBookmark) {
             tags: ['software', `Go`, `programming language`],
             description: `Systems programming language`,
         },
+        {
+            label: "Scala",
+            url: "https://www.scala-lang.org/",
+            tags: ['Scala', 'Java', `software`, `programming language`],
+            description: `Advanced programming language targeting the JVM`,
+        },
     ].forEach(addBookmark);
 }
