@@ -405,5 +405,11 @@ function createBookmarks(addBookmark) {
             tags: ['Rust', `software`],
             description: `Performace oriented language`,
         },
+        {
+            label: "The Deadlock Empire",
+            url: "https://deadlockempire.github.io/",
+            tags: ['tutorial', 'concurrency', 'C#'],
+            description: `Tutorial on concurrency`,
+        },
     ].forEach(addBookmark);
 }
