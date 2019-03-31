@@ -93,6 +93,12 @@ function createBookmarks(addBookmark) {
             description: `Library for styling React components`,
         },
         {
+            label: "react-gh-pages",
+            url: "https://github.com/gitname/react-gh-pages",
+            tags: ['JavaScript', 'library', 'React'],
+            description: `Package to deploy React apps to GitHub Pages`,
+        },
+        {
             label: "Material UI",
             url: "https://material-ui.com/",
             tags: ['front end', 'JavaScript', 'web', 'library'],
