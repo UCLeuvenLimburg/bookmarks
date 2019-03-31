@@ -471,5 +471,11 @@ function createBookmarks(addBookmark) {
             tags: ['software', `Ruby`, `programming language`],
             description: `Programming language for quick development`,
         },
+        {
+            label: "Go",
+            url: "https://golang.org/",
+            tags: ['software', `Go`, `programming language`],
+            description: `Systems programming language`,
+        },
     ].forEach(addBookmark);
 }
