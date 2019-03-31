@@ -18,7 +18,7 @@ function createBookmarks(addBookmark) {
             description: `API Search Engine`,
         },
         {
-            label: `Glasgow Haskell Compiler`,
+            label: `Haskell`,
             url: `https://www.haskell.org/ghc/`,
             tags: ['Haskell', 'software', 'functional programming', `programming language`],
             description: `Haskell compiler`,
