@@ -13,7 +13,7 @@ Edit the file `public/data.js`.
 $ npm start
 
 # Updates the online site
-$ npm deploy
+$ npm run deploy
 ```
 
 ## Extra Stuff
