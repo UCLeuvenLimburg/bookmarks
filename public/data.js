@@ -411,5 +411,11 @@ function createBookmarks(addBookmark) {
             tags: ['tutorial', 'concurrency', 'C#'],
             description: `Tutorial on concurrency`,
         },
+        {
+            label: "Erlang",
+            url: "https://www.erlang.org/",
+            tags: ['Erlang', 'concurrency'],
+            description: `Programming language with built-in support for concurrency`,
+        },
     ].forEach(addBookmark);
 }
