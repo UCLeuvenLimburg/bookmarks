@@ -423,5 +423,11 @@ function createBookmarks(addBookmark) {
             tags: ['JavaScript', 'games'],
             description: `A meta-JavaScript adventure game by Alex Nisnevich and Greg Shuflin.`,
         },
+        {
+            label: "Oz/Mozart",
+            url: "https://mozart.github.io/",
+            tags: ['Oz', 'concurrency'],
+            description: `Programming language with built-in support for concurrency`,
+        },
     ].forEach(addBookmark);
 }
