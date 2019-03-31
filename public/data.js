@@ -288,6 +288,12 @@ function createBookmarks(addBookmark) {
             description: `Web technologies for Python`
         },
         {
+            label: "Pyramid",
+            url: "https://trypyramid.com/",
+            tags: ['Pyramid', 'Python', 'back end', 'web', 'library'],
+            description: `Quickly create web applications in Python`
+        },
+        {
             label: "Django",
             url: "https://www.djangoproject.com/",
             tags: ['Django', 'Python', 'back end', 'web', 'library'],
