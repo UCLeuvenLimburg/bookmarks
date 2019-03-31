@@ -447,5 +447,11 @@ function createBookmarks(addBookmark) {
             tags: ['PHP', 'library', 'web', 'back end'],
             description: `PHP web framework`,
         },
+        {
+            label: "Nandgame",
+            url: "http://nandgame.com/",
+            tags: ['games', 'tutorial'],
+            description: `Game teaching working with logic gates`,
+        },
     ].forEach(addBookmark);
 }
