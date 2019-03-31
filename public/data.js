@@ -459,5 +459,11 @@ function createBookmarks(addBookmark) {
             tags: ['software', `O'Caml`, `programming language`],
             description: `Functional programming language`,
         },
+        {
+            label: "Python",
+            url: "https://www.python.org/",
+            tags: ['software', `Python`, `programming language`],
+            description: `Programming language for quick development`,
+        },
     ].forEach(addBookmark);
 }
