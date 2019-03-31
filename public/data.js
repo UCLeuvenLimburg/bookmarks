@@ -523,19 +523,102 @@ function createBookmarks(addBookmark) {
             label: "C#",
             url: "https://docs.microsoft.com/en-gb/dotnet/csharp/",
             tags: [`C#`, `programming language`, 'reference', 'tutorial'],
-            description: `Programming language`,
+            description: `Programming language from Microsoft`,
         },
         {
             label: "F#",
             url: "https://dotnet.microsoft.com/languages/fsharp",
-            tags: [`programming language`, 'reference', 'tutorial'],
-            description: `Programming language`,
+            tags: [`programming language`, 'reference', 'tutorial', 'F#'],
+            description: `Programming language from Microsoft`,
         },
         {
             label: "Squeak",
             url: "https://squeak.org/",
             tags: [`software`, `programming language`],
             description: `Programming language`,
+        },
+        {
+            label: "Java",
+            url: "https://openjdk.java.net/",
+            tags: [`software`, `programming language`],
+            description: `Programming language`,
+        },
+        {
+            label: "Eclipse",
+            url: "https://www.eclipse.org/",
+            tags: [`software`, `IDE`],
+            description: `IDE for Java (and other languages)`,
+        },
+        {
+            label: "NetBeans",
+            url: "https://netbeans.org/",
+            tags: [`software`, `IDE`, 'Java'],
+            description: `Java IDE`,
+        },
+        {
+            label: "IntelliJ",
+            url: "https://www.jetbrains.com/idea/",
+            tags: [`software`, `IDE`, 'Java'],
+            description: `Java IDE from JetBrains`,
+        },
+        {
+            label: "RubyMine",
+            url: "https://www.jetbrains.com/ruby/",
+            tags: [`software`, `IDE`, 'Ruby'],
+            description: `Ruby IDE from JetBrains`,
+        },
+        {
+            label: "PyCharm",
+            url: "https://www.jetbrains.com/pycharm/",
+            tags: [`software`, `IDE`, 'Python'],
+            description: `Python IDE from JetBrains`,
+        },
+        {
+            label: "CLion",
+            url: "https://www.jetbrains.com/clion/",
+            tags: [`software`, `IDE`, 'C++'],
+            description: `C++ IDE from JetBrains`,
+        },
+        {
+            label: "SVG",
+            url: "https://developer.mozilla.org/en-US/docs/Web/SVG",
+            tags: [`web`],
+            description: `XML-based markup language for vector graphics`,
+        },
+        {
+            label: "Coq",
+            url: "https://coq.inria.fr/",
+            tags: [`software`, `programming language`],
+            description: `Proof assistant`,
+        },
+        {
+            label: "Dart",
+            url: "https://www.dartlang.org/",
+            tags: [`software`, `programming language`],
+            description: `Programming language (Google)`,
+        },
+        {
+            label: "Factor",
+            url: "https://factorcode.org/",
+            tags: [`software`, `programming language`],
+            description: `Stack based programming language`,
+        },
+        {
+            label: "TeX Live",
+            url: "https://www.tug.org/texlive/",
+            tags: [`software`],
+        },
+        {
+            label: "ImageMagick",
+            url: "https://www.imagemagick.org/",
+            tags: [`software`, `graphics`],
+            description: `Image manipulation software - usable from shell`
+        },
+        {
+            label: "FFmpeg",
+            url: "https://ffmpeg.org/",
+            tags: [`software`, `graphics`],
+            description: `Record, convert and stream audio and video.`
         },
     ].forEach(addBookmark);
 }
