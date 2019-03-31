@@ -27,6 +27,13 @@ const StyledCloud = styled(Cloud)`
     flex-grow: 0;
 `;
 
+const StatusBar = styled.footer`
+    text-align: right;
+    padding: 5px;
+    background: black;
+    color: white;
+`;
+
 class App extends Component<IProps, IState>
 {
     constructor(props : IProps)
@@ -52,6 +59,9 @@ class App extends Component<IProps, IState>
             <Container>
                 <StyledCloud tags={tags} onTagClicked={onToggleTag} />
                 <BookmarkCollectionComponent bookmarkCollection={this.state.bookmarks} onTagClicked={tag => onSelectTag(tag.label)} />
+                <StatusBar>
+                    {this.state.bookmarks.bookmarks.length} bookmark(s)
+                </StatusBar>
             </Container>
         );
 
