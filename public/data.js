@@ -441,6 +441,11 @@ function createBookmarks(addBookmark) {
             tags: ['PHP', 'software'],
             description: `So-called programming language targeted to web development`,
         },
-
+        {
+            label: "Laravel",
+            url: "https://laravel.com/",
+            tags: ['PHP', 'library', 'web', 'back end'],
+            description: `PHP web framework`,
+        },
     ].forEach(addBookmark);
 }
