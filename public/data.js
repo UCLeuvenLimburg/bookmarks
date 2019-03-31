@@ -489,5 +489,11 @@ function createBookmarks(addBookmark) {
             tags: ['Clojure', 'Java', `software`, `programming language`],
             description: `Programming language targeting the JVM`,
         },
+        {
+            label: "Kotlin",
+            url: "https://kotlinlang.org/",
+            tags: ['Kotlin', 'Java', `software`, `programming language`],
+            description: `Programming language targeting the JVM`,
+        },
     ].forEach(addBookmark);
 }
