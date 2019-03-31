@@ -507,5 +507,11 @@ function createBookmarks(addBookmark) {
             tags: [`software`, `programming language`],
             description: `Logic programming language`,
         },
+        {
+            label: "Perl",
+            url: "https://www.perl.org/",
+            tags: [`software`, `programming language`],
+            description: `Programming language`,
+        },
     ].forEach(addBookmark);
 }
