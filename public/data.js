@@ -483,5 +483,11 @@ function createBookmarks(addBookmark) {
             tags: ['Scala', 'Java', `software`, `programming language`],
             description: `Advanced programming language targeting the JVM`,
         },
+        {
+            label: "Clojure",
+            url: "https://clojure.org/",
+            tags: ['Clojure', 'Java', `software`, `programming language`],
+            description: `Programming language targeting the JVM`,
+        },
     ].forEach(addBookmark);
 }
