@@ -513,5 +513,11 @@ function createBookmarks(addBookmark) {
             tags: [`software`, `programming language`],
             description: `Programming language`,
         },
+        {
+            label: "Squeak",
+            url: "https://squeak.org/",
+            tags: [`software`, `programming language`],
+            description: `Programming language`,
+        },
     ].forEach(addBookmark);
 }
