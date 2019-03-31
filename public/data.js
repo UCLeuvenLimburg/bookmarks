@@ -514,6 +514,12 @@ function createBookmarks(addBookmark) {
             description: `Programming language`,
         },
         {
+            label: "C++",
+            url: "http://www.cplusplus.com/",
+            tags: [`C++`, `programming language`],
+            description: `Performance oriented programming language`,
+        },
+        {
             label: "Squeak",
             url: "https://squeak.org/",
             tags: [`software`, `programming language`],
