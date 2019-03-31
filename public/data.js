@@ -453,5 +453,11 @@ function createBookmarks(addBookmark) {
             tags: ['games', 'tutorial'],
             description: `Game teaching working with logic gates`,
         },
+        {
+            label: "O'Caml",
+            url: "http://www.ocaml.org/",
+            tags: ['software', `O'Caml`, `programming`],
+            description: `Functional programming language`,
+        },
     ].forEach(addBookmark);
 }
