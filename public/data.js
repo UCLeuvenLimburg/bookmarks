@@ -620,5 +620,11 @@ function createBookmarks(addBookmark) {
             tags: [`software`, `graphics`],
             description: `Record, convert and stream audio and video.`
         },
+        {
+            label: "Android Studio",
+            url: "https://developer.android.com/studio",
+            tags: [`software`, `IDE`, 'Java', 'mobile'],
+            description: `IDE for Android development`,
+        },
     ].forEach(addBookmark);
 }
