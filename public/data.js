@@ -465,5 +465,11 @@ function createBookmarks(addBookmark) {
             tags: ['software', `Python`, `programming language`],
             description: `Programming language for quick development`,
         },
+        {
+            label: "Ruby",
+            url: "https://www.ruby-lang.org/",
+            tags: ['software', `Ruby`, `programming language`],
+            description: `Programming language for quick development`,
+        },
     ].forEach(addBookmark);
 }
