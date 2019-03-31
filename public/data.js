@@ -627,5 +627,46 @@ function createBookmarks(addBookmark) {
             tags: [`software`, `IDE`, 'Java', 'mobile'],
             description: `IDE for Android development`,
         },
+        {
+            label: "A Complete Guide to Flexbox",
+            url: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+            tags: ['web', 'tutorial', 'front end'],
+        },
+        {
+            label: "Flow",
+            url: "https://flow.org/",
+            tags: ['web', 'programming language', 'JavaScript'],
+            description: `Static type checker for JavaScript`,
+        },
+        {
+            label: "Sass",
+            url: "https://sass-lang.com/",
+            tags: ['web', 'front end'],
+            description: `CSS with superpowers`,
+        },
+        {
+            label: "JQuery",
+            url: "https://jquery.com/",
+            tags: ['web', 'JavaScript', 'front end', 'library'],
+            description: `JavaScript library`,
+        },
+        {
+            label: "Ramda",
+            url: "https://ramdajs.com/",
+            tags: ['web', 'JavaScript', 'library', 'functional programming'],
+            description: `A practical functional library for JavaScript programmers`,
+        },
+        {
+            label: "Sanctuary",
+            url: "https://sanctuary.js.org/",
+            tags: ['web', 'JavaScript', 'library', 'functional programming'],
+            description: `A functional library for JavaScript programmers`,
+        },
+        {
+            label: "Lodash",
+            url: "https://lodash.com/",
+            tags: ['web', 'JavaScript', 'library'],
+            description: `JavaScript algorithmic library`,
+        },
     ].forEach(addBookmark);
 }
