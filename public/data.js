@@ -20,7 +20,7 @@ function createBookmarks(addBookmark) {
         {
             label: `Glasgow Haskell Compiler`,
             url: `https://www.haskell.org/ghc/`,
-            tags: ['Haskell', 'software', 'functional programming'],
+            tags: ['Haskell', 'software', 'functional programming', `programming language`],
             description: `Haskell compiler`,
         },
         {
@@ -360,7 +360,7 @@ function createBookmarks(addBookmark) {
         {
             label: "Racket",
             url: "https://racket-lang.org/",
-            tags: ['Scheme', 'Racket', 'IDE', `software`],
+            tags: ['Scheme', 'Racket', 'IDE', `software`, `programming language`],
             description: `IDE for Scheme/Racket`,
         },
         {
@@ -403,12 +403,12 @@ function createBookmarks(addBookmark) {
         {
             label: "WebAssembly",
             url: "https://webassembly.org/",
-            tags: ['wasm', 'web'],
+            tags: ['wasm', 'web', `programming language`],
         },
         {
             label: "Rust",
             url: "https://www.rust-lang.org/",
-            tags: ['Rust', `software`],
+            tags: ['Rust', `software`, `programming language`],
             description: `Performace oriented language`,
         },
         {
@@ -420,7 +420,7 @@ function createBookmarks(addBookmark) {
         {
             label: "Erlang",
             url: "https://www.erlang.org/",
-            tags: ['Erlang', 'concurrency'],
+            tags: ['Erlang', 'concurrency', `programming language`],
             description: `Programming language with built-in support for concurrency`,
         },
         {
@@ -432,13 +432,13 @@ function createBookmarks(addBookmark) {
         {
             label: "Oz/Mozart",
             url: "https://mozart.github.io/",
-            tags: ['Oz', 'concurrency'],
+            tags: ['Oz', 'concurrency', `programming language`],
             description: `Programming language with built-in support for concurrency`,
         },
         {
             label: "PHP",
             url: "https://www.php.net/",
-            tags: ['PHP', 'software'],
+            tags: ['PHP', 'software', `programming language`],
             description: `So-called programming language targeted to web development`,
         },
         {
@@ -456,7 +456,7 @@ function createBookmarks(addBookmark) {
         {
             label: "O'Caml",
             url: "http://www.ocaml.org/",
-            tags: ['software', `O'Caml`, `programming`],
+            tags: ['software', `O'Caml`, `programming language`],
             description: `Functional programming language`,
         },
     ].forEach(addBookmark);
