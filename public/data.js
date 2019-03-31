@@ -668,5 +668,23 @@ function createBookmarks(addBookmark) {
             tags: ['web', 'JavaScript', 'library'],
             description: `JavaScript algorithmic library`,
         },
+        {
+            label: "Jenkins",
+            url: "https://jenkins.io/",
+            tags: ['development'],
+            description: `Continuous integration tool`,
+        },
+        {
+            label: "Rouge",
+            url: "http://rouge.jneen.net/",
+            tags: ['ruby'],
+            description: `Code highlighter`,
+        },
+        {
+            label: "Pygments",
+            url: "http://pygments.org/",
+            tags: ['python'],
+            description: `Code highlighter`,
+        },
     ].forEach(addBookmark);
 }
