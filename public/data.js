@@ -435,5 +435,12 @@ function createBookmarks(addBookmark) {
             tags: ['Oz', 'concurrency'],
             description: `Programming language with built-in support for concurrency`,
         },
+        {
+            label: "PHP",
+            url: "https://www.php.net/",
+            tags: ['PHP', 'software'],
+            description: `So-called programming language targeted to web development`,
+        },
+
     ].forEach(addBookmark);
 }
