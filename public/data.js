@@ -501,5 +501,11 @@ function createBookmarks(addBookmark) {
             tags: ['Java', `software`, `programming language`],
             description: `Programming language targeting the JVM`,
         },
+        {
+            label: "Prolog",
+            url: "http://www.swi-prolog.org/",
+            tags: [`software`, `programming language`],
+            description: `Logic programming language`,
+        },
     ].forEach(addBookmark);
 }
