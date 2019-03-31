@@ -8,7 +8,7 @@ function createBookmarks(addBookmark) {
         {
             label: 'Real World Haskell',
             url: `http://book.realworldhaskell.org/read/`,
-            tags: ['Haskell', 'free book', 'tutorial'],
+            tags: ['Haskell', 'free book', 'tutorial', 'functional programming'],
             description: 'Practical applications of Haskell'
         },
         {
@@ -18,9 +18,9 @@ function createBookmarks(addBookmark) {
             description: `API Search Engine`,
         },
         {
-            label: `Glasgow Haskell Compiler`,
+            label: `Haskell`,
             url: `https://www.haskell.org/ghc/`,
-            tags: ['Haskell', 'software'],
+            tags: ['Haskell', 'software', 'functional programming', `programming language`],
             description: `Haskell compiler`,
         },
         {
@@ -91,6 +91,12 @@ function createBookmarks(addBookmark) {
             url: "https://www.styled-components.com/",
             tags: ['front end', 'JavaScript', 'web', 'library', 'React'],
             description: `Library for styling React components`,
+        },
+        {
+            label: "react-gh-pages",
+            url: "https://github.com/gitname/react-gh-pages",
+            tags: ['JavaScript', 'library', 'React'],
+            description: `Package to deploy React apps to GitHub Pages`,
         },
         {
             label: "Material UI",
@@ -282,6 +288,12 @@ function createBookmarks(addBookmark) {
             description: `Web technologies for Python`
         },
         {
+            label: "Pyramid",
+            url: "https://trypyramid.com/",
+            tags: ['Pyramid', 'Python', 'back end', 'web', 'library'],
+            description: `Quickly create web applications in Python`
+        },
+        {
             label: "Django",
             url: "https://www.djangoproject.com/",
             tags: ['Django', 'Python', 'back end', 'web', 'library'],
@@ -348,7 +360,7 @@ function createBookmarks(addBookmark) {
         {
             label: "Racket",
             url: "https://racket-lang.org/",
-            tags: ['Scheme', 'Racket', 'IDE', `software`],
+            tags: ['Scheme', 'Racket', 'IDE', `software`, `programming language`],
             description: `IDE for Scheme/Racket`,
         },
         {
@@ -391,13 +403,222 @@ function createBookmarks(addBookmark) {
         {
             label: "WebAssembly",
             url: "https://webassembly.org/",
-            tags: ['wasm', 'web'],
+            tags: ['wasm', 'web', `programming language`],
         },
         {
             label: "Rust",
             url: "https://www.rust-lang.org/",
-            tags: ['Rust', `software`],
+            tags: ['Rust', `software`, `programming language`],
             description: `Performace oriented language`,
+        },
+        {
+            label: "The Deadlock Empire",
+            url: "https://deadlockempire.github.io/",
+            tags: ['tutorial', 'concurrency', 'C#'],
+            description: `Tutorial on concurrency`,
+        },
+        {
+            label: "Erlang",
+            url: "https://www.erlang.org/",
+            tags: ['Erlang', 'concurrency', `programming language`],
+            description: `Programming language with built-in support for concurrency`,
+        },
+        {
+            label: "Untrusted",
+            url: "https://alexnisnevich.github.io/untrusted/",
+            tags: ['JavaScript', 'games'],
+            description: `A meta-JavaScript adventure game by Alex Nisnevich and Greg Shuflin.`,
+        },
+        {
+            label: "Oz/Mozart",
+            url: "https://mozart.github.io/",
+            tags: ['Oz', 'concurrency', `programming language`],
+            description: `Programming language with built-in support for concurrency`,
+        },
+        {
+            label: "PHP",
+            url: "https://www.php.net/",
+            tags: ['PHP', 'software', `programming language`],
+            description: `So-called programming language targeted to web development`,
+        },
+        {
+            label: "Laravel",
+            url: "https://laravel.com/",
+            tags: ['PHP', 'library', 'web', 'back end'],
+            description: `PHP web framework`,
+        },
+        {
+            label: "Nandgame",
+            url: "http://nandgame.com/",
+            tags: ['games', 'tutorial'],
+            description: `Game teaching working with logic gates`,
+        },
+        {
+            label: "O'Caml",
+            url: "http://www.ocaml.org/",
+            tags: ['software', `O'Caml`, `programming language`],
+            description: `Functional programming language`,
+        },
+        {
+            label: "Python",
+            url: "https://www.python.org/",
+            tags: ['software', `Python`, `programming language`],
+            description: `Programming language for quick development`,
+        },
+        {
+            label: "Ruby",
+            url: "https://www.ruby-lang.org/",
+            tags: ['software', `Ruby`, `programming language`],
+            description: `Programming language for quick development`,
+        },
+        {
+            label: "Go",
+            url: "https://golang.org/",
+            tags: ['software', `Go`, `programming language`],
+            description: `Systems programming language`,
+        },
+        {
+            label: "Scala",
+            url: "https://www.scala-lang.org/",
+            tags: ['Java', `software`, `programming language`],
+            description: `Advanced programming language targeting the JVM`,
+        },
+        {
+            label: "Clojure",
+            url: "https://clojure.org/",
+            tags: ['Java', `software`, `programming language`],
+            description: `Programming language targeting the JVM`,
+        },
+        {
+            label: "Kotlin",
+            url: "https://kotlinlang.org/",
+            tags: ['Java', `software`, `programming language`],
+            description: `Programming language targeting the JVM`,
+        },
+        {
+            label: "Groovy",
+            url: "http://groovy-lang.org/",
+            tags: ['Java', `software`, `programming language`],
+            description: `Programming language targeting the JVM`,
+        },
+        {
+            label: "Prolog",
+            url: "http://www.swi-prolog.org/",
+            tags: [`software`, `programming language`],
+            description: `Logic programming language`,
+        },
+        {
+            label: "Perl",
+            url: "https://www.perl.org/",
+            tags: [`software`, `programming language`],
+            description: `Programming language`,
+        },
+        {
+            label: "C++",
+            url: "http://www.cplusplus.com/",
+            tags: [`C++`, `programming language`, 'reference', 'tutorial'],
+            description: `Performance oriented programming language`,
+        },
+        {
+            label: "C#",
+            url: "https://docs.microsoft.com/en-gb/dotnet/csharp/",
+            tags: [`C#`, `programming language`, 'reference', 'tutorial'],
+            description: `Programming language from Microsoft`,
+        },
+        {
+            label: "F#",
+            url: "https://dotnet.microsoft.com/languages/fsharp",
+            tags: [`programming language`, 'reference', 'tutorial', 'F#'],
+            description: `Programming language from Microsoft`,
+        },
+        {
+            label: "Squeak",
+            url: "https://squeak.org/",
+            tags: [`software`, `programming language`],
+            description: `Programming language`,
+        },
+        {
+            label: "Java",
+            url: "https://openjdk.java.net/",
+            tags: [`software`, `programming language`],
+            description: `Programming language`,
+        },
+        {
+            label: "Eclipse",
+            url: "https://www.eclipse.org/",
+            tags: [`software`, `IDE`],
+            description: `IDE for Java (and other languages)`,
+        },
+        {
+            label: "NetBeans",
+            url: "https://netbeans.org/",
+            tags: [`software`, `IDE`, 'Java'],
+            description: `Java IDE`,
+        },
+        {
+            label: "IntelliJ",
+            url: "https://www.jetbrains.com/idea/",
+            tags: [`software`, `IDE`, 'Java'],
+            description: `Java IDE from JetBrains`,
+        },
+        {
+            label: "RubyMine",
+            url: "https://www.jetbrains.com/ruby/",
+            tags: [`software`, `IDE`, 'Ruby'],
+            description: `Ruby IDE from JetBrains`,
+        },
+        {
+            label: "PyCharm",
+            url: "https://www.jetbrains.com/pycharm/",
+            tags: [`software`, `IDE`, 'Python'],
+            description: `Python IDE from JetBrains`,
+        },
+        {
+            label: "CLion",
+            url: "https://www.jetbrains.com/clion/",
+            tags: [`software`, `IDE`, 'C++'],
+            description: `C++ IDE from JetBrains`,
+        },
+        {
+            label: "SVG",
+            url: "https://developer.mozilla.org/en-US/docs/Web/SVG",
+            tags: [`web`],
+            description: `XML-based markup language for vector graphics`,
+        },
+        {
+            label: "Coq",
+            url: "https://coq.inria.fr/",
+            tags: [`software`, `programming language`],
+            description: `Proof assistant`,
+        },
+        {
+            label: "Dart",
+            url: "https://www.dartlang.org/",
+            tags: [`software`, `programming language`],
+            description: `Programming language (Google)`,
+        },
+        {
+            label: "Factor",
+            url: "https://factorcode.org/",
+            tags: [`software`, `programming language`],
+            description: `Stack based programming language`,
+        },
+        {
+            label: "TeX Live",
+            url: "https://www.tug.org/texlive/",
+            tags: [`software`],
+        },
+        {
+            label: "ImageMagick",
+            url: "https://www.imagemagick.org/",
+            tags: [`software`, `graphics`],
+            description: `Image manipulation software - usable from shell`
+        },
+        {
+            label: "FFmpeg",
+            url: "https://ffmpeg.org/",
+            tags: [`software`, `graphics`],
+            description: `Record, convert and stream audio and video.`
         },
     ].forEach(addBookmark);
 }
