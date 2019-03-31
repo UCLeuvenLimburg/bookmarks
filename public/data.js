@@ -8,7 +8,7 @@ function createBookmarks(addBookmark) {
         {
             label: 'Real World Haskell',
             url: `http://book.realworldhaskell.org/read/`,
-            tags: ['Haskell', 'free book', 'tutorial'],
+            tags: ['Haskell', 'free book', 'tutorial', 'functional programming'],
             description: 'Practical applications of Haskell'
         },
         {
@@ -20,7 +20,7 @@ function createBookmarks(addBookmark) {
         {
             label: `Glasgow Haskell Compiler`,
             url: `https://www.haskell.org/ghc/`,
-            tags: ['Haskell', 'software'],
+            tags: ['Haskell', 'software', 'functional programming'],
             description: `Haskell compiler`,
         },
         {
@@ -416,6 +416,12 @@ function createBookmarks(addBookmark) {
             url: "https://www.erlang.org/",
             tags: ['Erlang', 'concurrency'],
             description: `Programming language with built-in support for concurrency`,
+        },
+        {
+            label: "Untrusted",
+            url: "https://alexnisnevich.github.io/untrusted/",
+            tags: ['JavaScript', 'games'],
+            description: `A meta-JavaScript adventure game by Alex Nisnevich and Greg Shuflin.`,
         },
     ].forEach(addBookmark);
 }
