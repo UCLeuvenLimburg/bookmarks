@@ -715,6 +715,17 @@ function createBookmarks(addBookmark) {
             tags: ['education'],
             description: `Educational site with programming exercises in many different languages`
         },
-
+        {
+            label: "SDL",
+            url: "https://www.libsdl.org/",
+            tags: ['C++', 'C#', 'Python', 'library', 'games'],
+            description: `Cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware`
+        },
+        {
+            label: "Perforamce Comparison C++ and O'Caml",
+            url: "http://www.ffconsultancy.com/languages/ray_tracer/comparison.html",
+            tags: ['C++', `O'Caml`, 'article'],
+            description: `Performance of ray tracers compared`
+        },
     ].forEach(addBookmark);
 }
