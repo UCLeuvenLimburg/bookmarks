@@ -145,7 +145,7 @@ function createBookmarks(addBookmark) {
         {
             label: "Allegro",
             url: "http://liballeg.org/",
-            tags: ['C++', 'library'],
+            tags: ['C++', 'library', 'games'],
             description: `Game Programming Library for C++`,
         },
         {
@@ -686,5 +686,35 @@ function createBookmarks(addBookmark) {
             tags: ['python'],
             description: `Code highlighter`,
         },
+        {
+            label: "Don't Use Exceptions for Flow Control",
+            url: "http://wiki.c2.com/?DontUseExceptionsForFlowControl",
+            tags: ['article'],
+        },
+        {
+            label: "Public APIs",
+            url: "https://github.com/toddmotto/public-apis/blob/master/README.md",
+            tags: ['reference', 'web'],
+            description: 'List of free web APIs'
+        },
+        {
+            label: "Gamasutra",
+            url: "http://www.gamasutra.com/",
+            tags: ['games'],
+            description: 'Website focused on game development'
+        },
+        {
+            label: "The Old New Thing",
+            url: "https://devblogs.microsoft.com/oldnewthing/",
+            tags: ['article'],
+            description: `Raymond Chen's blog`
+        },
+        {
+            label: "Exercism.io",
+            url: "https://exercism.io/",
+            tags: ['education'],
+            description: `Educational site with programming exercises in many different languages`
+        },
+
     ].forEach(addBookmark);
 }
