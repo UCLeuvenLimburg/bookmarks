@@ -22,17 +22,17 @@ export interface IState
 
 
 const Container = styled.span`
-    padding: 2px 20px;
+    padding: 2px 10px;
     margin: 2px 5px;
     user-select: none;
     white-space: nowrap;
     cursor: default;
     font-variant: small-caps;
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD";
+    box-shadow: 2px 2px black;
 
     &:hover {
-        color: white;
-        background: black;
+        background: #FAA;
     }
 `;
 
@@ -68,39 +68,13 @@ function deriveFontSize(props : IProps)
 
 function deriveBackground(props : IProps)
 {
-    const { label } = props;
-    const hash = label.split('').map(c => c.codePointAt(0)).reduce<number>( (acc, n) => acc + (n as number), 0 );
-    const colors = [
-        '#FAA',
-        '#AFA',
-        '#AAF',
-        '#DD0',
-        '#FAF',
-        '#AFF',
-        '#84A',
-        '#48A',
-        '#484',
-        '#A48',
-        '#A84',
-        '#8A4',
-        '#4A8',
-        '#A55',
-        '#5A5',
-        '#77A',
-    ];
-
-    return colors[hash % colors.length];
-}
-
-function deriveBoxShadow(props : IProps)
-{
     if ( props.selected )
     {
-        return '5px 5px black';
+        return '#AFA';
     }
     else
     {
-        return '2px 2px black';
+        return '#BBF';
     }
 }
 
@@ -119,6 +93,5 @@ function deriveFontWeight(props : IProps)
 export const CloudTag = styled(UnstyledCloudTag)`
     font-size: ${deriveFontSize};
     background: ${deriveBackground};
-    box-shadow: ${deriveBoxShadow};
     font-weight: ${deriveFontWeight};
 `;
