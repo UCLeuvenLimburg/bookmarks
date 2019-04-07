@@ -727,5 +727,21 @@ function createBookmarks(addBookmark) {
             tags: ['C++', `O'Caml`, 'article'],
             description: `Performance of ray tracers compared`
         },
+        {
+            label: "Dive Into Html5",
+            url: `https://diveintohtml5.info/`,
+            tags: ['web', 'free book'],
+        },
+        {
+            label: "Boost C++ Library",
+            url: `https://www.boost.org/`,
+            tags: ['C++', 'library '],
+        },
+        {
+            label: "Simply Logical: Intelligent Reasoning by Example",
+            url: `https://book.simply-logical.space/`,
+            tags: ['Prolog', 'free book'],
+        },
+
     ].forEach(addBookmark);
 }
