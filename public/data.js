@@ -722,7 +722,7 @@ function createBookmarks(addBookmark) {
             description: `Cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware`
         },
         {
-            label: "Perforamce Comparison C++ and O'Caml",
+            label: "Performance Comparison C++ and O'Caml",
             url: "http://www.ffconsultancy.com/languages/ray_tracer/comparison.html",
             tags: ['C++', `O'Caml`, 'article'],
             description: `Performance of ray tracers compared`
