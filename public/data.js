@@ -777,6 +777,11 @@ function createBookmarks(addBookmark) {
             url: `http://cl-cookbook.sourceforge.net/`,
             tags: ['Common Lisp', 'free book'],
         },
+        {
+            label: "Effective Go",
+            url: `https://golang.org/doc/effective_go.html`,
+            tags: ['Go', 'free book'],
+        },
 
     ].forEach(addBookmark);
 }
