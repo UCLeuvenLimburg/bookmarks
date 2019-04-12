@@ -762,6 +762,11 @@ function createBookmarks(addBookmark) {
             url: `https://automatetheboringstuff.com/`,
             tags: ['Python', 'free book'],
         },
+        {
+            label: "Invent Your Own Computer Games with Python",
+            url: `http://inventwithpython.com/invent4thed/`,
+            tags: ['Python', 'free book'],
+        },
 
     ].forEach(addBookmark);
 }
