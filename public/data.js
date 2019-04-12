@@ -767,6 +767,11 @@ function createBookmarks(addBookmark) {
             url: `http://inventwithpython.com/invent4thed/`,
             tags: ['Python', 'free book'],
         },
+        {
+            label: "Making Games with Python & Pygame",
+            url: `http://inventwithpython.com/pygame/`,
+            tags: ['Python', 'free book'],
+        },
 
     ].forEach(addBookmark);
 }
