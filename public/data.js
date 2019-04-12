@@ -757,6 +757,11 @@ function createBookmarks(addBookmark) {
             url: `http://inventwithpython.com/cracking/`,
             tags: ['Python', 'free book'],
         },
+        {
+            label: "Automate the Boring Stuff with Python",
+            url: `https://automatetheboringstuff.com/`,
+            tags: ['Python', 'free book'],
+        },
 
     ].forEach(addBookmark);
 }
