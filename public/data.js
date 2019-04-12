@@ -772,6 +772,11 @@ function createBookmarks(addBookmark) {
             url: `http://inventwithpython.com/pygame/`,
             tags: ['Python', 'free book'],
         },
+        {
+            label: "The Common Lisp Cookbook",
+            url: `http://cl-cookbook.sourceforge.net/`,
+            tags: ['Common Lisp', 'free book'],
+        },
 
     ].forEach(addBookmark);
 }
