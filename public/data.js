@@ -752,5 +752,11 @@ function createBookmarks(addBookmark) {
             url: `https://doc.rust-lang.org/book/`,
             tags: ['Rust', 'free book'],
         },
+        {
+            label: "Cracking Codes with Python",
+            url: `http://inventwithpython.com/cracking/`,
+            tags: ['Python', 'free book'],
+        },
+
     ].forEach(addBookmark);
 }
