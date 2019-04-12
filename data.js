@@ -145,7 +145,7 @@ function createBookmarks(addBookmark) {
         {
             label: "Allegro",
             url: "http://liballeg.org/",
-            tags: ['C++', 'library'],
+            tags: ['C++', 'library', 'games'],
             description: `Game Programming Library for C++`,
         },
         {
@@ -668,5 +668,120 @@ function createBookmarks(addBookmark) {
             tags: ['web', 'JavaScript', 'library'],
             description: `JavaScript algorithmic library`,
         },
+        {
+            label: "Jenkins",
+            url: "https://jenkins.io/",
+            tags: ['development'],
+            description: `Continuous integration tool`,
+        },
+        {
+            label: "Rouge",
+            url: "http://rouge.jneen.net/",
+            tags: ['ruby'],
+            description: `Code highlighter`,
+        },
+        {
+            label: "Pygments",
+            url: "http://pygments.org/",
+            tags: ['python'],
+            description: `Code highlighter`,
+        },
+        {
+            label: "Don't Use Exceptions for Flow Control",
+            url: "http://wiki.c2.com/?DontUseExceptionsForFlowControl",
+            tags: ['article'],
+        },
+        {
+            label: "Public APIs",
+            url: "https://github.com/toddmotto/public-apis/blob/master/README.md",
+            tags: ['reference', 'web'],
+            description: 'List of free web APIs'
+        },
+        {
+            label: "Gamasutra",
+            url: "http://www.gamasutra.com/",
+            tags: ['games'],
+            description: 'Website focused on game development'
+        },
+        {
+            label: "The Old New Thing",
+            url: "https://devblogs.microsoft.com/oldnewthing/",
+            tags: ['article'],
+            description: `Raymond Chen's blog`
+        },
+        {
+            label: "Exercism.io",
+            url: "https://exercism.io/",
+            tags: ['education'],
+            description: `Educational site with programming exercises in many different languages`
+        },
+        {
+            label: "SDL",
+            url: "https://www.libsdl.org/",
+            tags: ['C++', 'C#', 'Python', 'library', 'games'],
+            description: `Cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware`
+        },
+        {
+            label: "Performance Comparison C++ and O'Caml",
+            url: "http://www.ffconsultancy.com/languages/ray_tracer/comparison.html",
+            tags: ['C++', `O'Caml`, 'article'],
+            description: `Performance of ray tracers compared`
+        },
+        {
+            label: "Dive Into Html5",
+            url: `https://diveintohtml5.info/`,
+            tags: ['web', 'free book'],
+        },
+        {
+            label: "Boost C++ Library",
+            url: `https://www.boost.org/`,
+            tags: ['C++', 'library '],
+        },
+        {
+            label: "Simply Logical: Intelligent Reasoning by Example",
+            url: `https://book.simply-logical.space/`,
+            tags: ['Prolog', 'free book'],
+        },
+        {
+            label: "Data Compression Explained",
+            url: `http://mattmahoney.net/dc/dce.html`,
+            tags: ['compression', 'free book'],
+        },
+        {
+            label: "The Rust Programming Language",
+            url: `https://doc.rust-lang.org/book/`,
+            tags: ['Rust', 'free book'],
+        },
+        {
+            label: "Cracking Codes with Python",
+            url: `http://inventwithpython.com/cracking/`,
+            tags: ['Python', 'free book'],
+        },
+        {
+            label: "Automate the Boring Stuff with Python",
+            url: `https://automatetheboringstuff.com/`,
+            tags: ['Python', 'free book'],
+        },
+        {
+            label: "Invent Your Own Computer Games with Python",
+            url: `http://inventwithpython.com/invent4thed/`,
+            tags: ['Python', 'free book'],
+        },
+        {
+            label: "Making Games with Python & Pygame",
+            url: `http://inventwithpython.com/pygame/`,
+            tags: ['Python', 'free book'],
+        },
+        {
+            label: "The Common Lisp Cookbook",
+            url: `http://cl-cookbook.sourceforge.net/`,
+            tags: ['Common Lisp', 'free book'],
+        },
+        {
+            label: "Effective Go",
+            url: `https://golang.org/doc/effective_go.html`,
+            tags: ['Go', 'free book'],
+        },
+
     ].forEach(addBookmark);
 }
