@@ -742,6 +742,15 @@ function createBookmarks(addBookmark) {
             url: `https://book.simply-logical.space/`,
             tags: ['Prolog', 'free book'],
         },
-
+        {
+            label: "Data Compression Explained",
+            url: `http://mattmahoney.net/dc/dce.html`,
+            tags: ['compression', 'free book'],
+        },
+        {
+            label: "The Rust Programming Language",
+            url: `https://doc.rust-lang.org/book/`,
+            tags: ['Rust', 'free book'],
+        },
     ].forEach(addBookmark);
 }
