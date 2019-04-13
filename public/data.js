@@ -782,6 +782,11 @@ function createBookmarks(addBookmark) {
             url: `https://golang.org/doc/effective_go.html`,
             tags: ['Go', 'free book'],
         },
+        {
+            label: "Codewars",
+            url: `https://www.codewars.com/`,
+            tags: ['education'],
+        },
 
     ].forEach(addBookmark);
 }
