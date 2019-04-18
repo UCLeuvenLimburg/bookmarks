@@ -787,6 +787,12 @@ function createBookmarks(addBookmark) {
             url: `https://www.codewars.com/`,
             tags: ['education'],
         },
+        {
+            label: "Interface Dispatch",
+            url: `https://lukasatkinson.de/2018/interface-dispatch/`,
+            tags: ['article', 'technical', 'C++', 'Java', 'C#', 'Go', 'Rust'],
+            description: `Article detailing how interfaces work internally`,
+        },
 
     ].forEach(addBookmark);
 }
