@@ -793,6 +793,11 @@ function createBookmarks(addBookmark) {
             tags: ['article', 'technical', 'C++', 'Java', 'C#', 'Go', 'Rust'],
             description: `Article detailing how interfaces work internally`,
         },
+        {
+            label: "The Go Programming Language Specification",
+            url: `https://golang.org/ref/spec`,
+            tags: ['Go', 'reference'],
+        },
 
     ].forEach(addBookmark);
 }
