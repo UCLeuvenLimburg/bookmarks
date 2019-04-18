@@ -798,6 +798,11 @@ function createBookmarks(addBookmark) {
             url: `https://golang.org/ref/spec`,
             tags: ['Go', 'reference'],
         },
+        {
+            label: "Learn You a Haskell for Great Good!",
+            url: `http://learnyouahaskell.com/chapters`,
+            tags: ['Haskell', 'free book'],
+        },
 
     ].forEach(addBookmark);
 }
