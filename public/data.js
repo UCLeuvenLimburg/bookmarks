@@ -15,7 +15,7 @@ function createBookmarks(addBookmark) {
         {
             label: `Hoogle`,
             url: `https://www.haskell.org/hoogle/`,
-            tags: ['Haskell', 'library', 'reference'],
+            tags: ['Haskell', 'library', 'reference', 'online tool'],
             description: `API Search Engine`,
         },
         {
@@ -156,7 +156,7 @@ function createBookmarks(addBookmark) {
         {
             label: "Godbolt Compiler Explorer",
             url: "https://godbolt.org/",
-            tags: ['C++'],
+            tags: ['C++', 'online tool'],
         },
         {
             label: "Unreal Engine",
@@ -641,7 +641,7 @@ function createBookmarks(addBookmark) {
         {
             label: "Sass",
             url: "https://sass-lang.com/",
-            tags: ['web', 'front end'],
+            tags: ['web', 'front end', 'CSS'],
             description: `CSS with superpowers`,
         },
         {
@@ -803,6 +803,21 @@ function createBookmarks(addBookmark) {
             url: `http://learnyouahaskell.com/chapters`,
             tags: ['Haskell', 'free book'],
         },
-
+        {
+            label: "The Go Playground",
+            url: `https://play.golang.org/`,
+            tags: ['Go', 'online tool'],
+        },
+        {
+            label: "JSFiddle",
+            url: `https://jsfiddle.net/`,
+            tags: [ 'web', 'online tool', 'TypeScript', 'JavaScript', 'React', 'CSS' ],
+        },
+        {
+            label: "Practical Go",
+            url: `https://dave.cheney.net/practical-go/presentations/qcon-china.html`,
+            tags: [ 'Go', 'free book' ],
+            description: `Real world advice for writing maintainable Go programs`,
+        },
     ].forEach(addBookmark);
 }
