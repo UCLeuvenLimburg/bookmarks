@@ -836,7 +836,13 @@ function createBookmarks(addBookmark) {
             url: `https://github.com/ziadoz/awesome-php`,
             tags: [ 'PHP', 'library' ],
             description: `A curated list of amazingly awesome PHP libraries, resources and shiny things.`,
-        }
+        },
+        {
+            label: 'Awesome Ruby',
+            url: `https://awesome-ruby.com/`,
+            tags: [ 'Ruby', 'library' ],
+            description: `A collection of awesome Ruby libraries, tools, frameworks and software.`,
+        },
 
     ].forEach(addBookmark);
 }
