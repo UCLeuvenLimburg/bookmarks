@@ -824,12 +824,19 @@ function createBookmarks(addBookmark) {
             url: `https://github.com/avelino/awesome-go`,
             tags: [ 'Go', 'library' ],
             description: `A curated list of awesome Go frameworks, libraries and software.`,
-        }
+        },
         {
             label: 'Awesome Python',
             url: `https://github.com/vinta/awesome-python`,
             tags: [ 'Python', 'library' ],
             description: `A curated list of awesome Python frameworks, libraries, software and resources.`,
+        },
+        {
+            label: 'Awesome PHP',
+            url: `https://github.com/ziadoz/awesome-php`,
+            tags: [ 'PHP', 'library' ],
+            description: `A curated list of amazingly awesome PHP libraries, resources and shiny things.`,
         }
+
     ].forEach(addBookmark);
 }
