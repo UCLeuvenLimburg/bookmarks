@@ -819,5 +819,17 @@ function createBookmarks(addBookmark) {
             tags: [ 'Go', 'free book' ],
             description: `Real world advice for writing maintainable Go programs`,
         },
+        {
+            label: 'Awesome Go',
+            url: `https://github.com/avelino/awesome-go`,
+            tags: [ 'Go', 'library' ],
+            description: `A curated list of awesome Go frameworks, libraries and software.`,
+        }
+        {
+            label: 'Awesome Python',
+            url: `https://github.com/vinta/awesome-python`,
+            tags: [ 'Python', 'library' ],
+            description: `A curated list of awesome Python frameworks, libraries, software and resources.`,
+        }
     ].forEach(addBookmark);
 }
