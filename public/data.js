@@ -843,6 +843,11 @@ function createBookmarks(addBookmark) {
             tags: [ 'Ruby', 'library' ],
             description: `A collection of awesome Ruby libraries, tools, frameworks and software.`,
         },
+        {
+            label: 'Go Performance',
+            url: `https://github.com/dgryski/go-perfbook`,
+            tags: [ 'Go' ],
+        },
 
     ].forEach(addBookmark);
 }
