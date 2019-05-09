@@ -848,6 +848,11 @@ function createBookmarks(addBookmark) {
             url: `https://github.com/dgryski/go-perfbook`,
             tags: [ 'Go' ],
         },
+        {
+            label: `Real World O'Caml`,
+            url: `https://v1.realworldocaml.org/v1/en/html/index.html`,
+            tags: [ `O'Caml`, 'free book' ],
+        },
 
     ].forEach(addBookmark);
 }
