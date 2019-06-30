@@ -858,6 +858,12 @@ function createBookmarks(addBookmark) {
             url: `https://github.com/Microsoft/Windows-universal-samples/`,
             tags: [ `C#`, 'C++' ],
         },
+        {
+            label: `GOCUI - Go Console User Interface`,
+            url: `https://github.com/jroimartin/gocui`,
+            tags: [ `Go`, `library` ],
+            description: `Minimalist Go package aimed at creating Console User Interfaces`,
+        },
 
 
     ].forEach(addBookmark);
