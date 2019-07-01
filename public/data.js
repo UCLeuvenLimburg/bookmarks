@@ -869,6 +869,11 @@ function createBookmarks(addBookmark) {
             url: `https://graphql.org/learn/`,
             tags: [ `reference` ],
         },
+        {
+            label: `xUnit.net`,
+            url: `https://xunit.net/`,
+            tags: [ `reference`, `testing` ],
+        },
 
 
     ].forEach(addBookmark);
