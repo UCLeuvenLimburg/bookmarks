@@ -864,6 +864,11 @@ function createBookmarks(addBookmark) {
             tags: [ `Go`, `library` ],
             description: `Minimalist Go package aimed at creating Console User Interfaces`,
         },
+        {
+            label: `GraphQL`,
+            url: `https://graphql.org/learn/`,
+            tags: [ `reference` ],
+        },
 
 
     ].forEach(addBookmark);
