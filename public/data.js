@@ -895,6 +895,12 @@ function createBookmarks(addBookmark) {
             tags: [ `python`, `library` ],
             description: `2D physics library for Python`,
         },
+        {
+            label: `Why Continuations are Coming to Java`,
+            url: `https://www.infoq.com/presentations/continuations-java/`,
+            tags: [ `java`, `technical`, `video` ],
+        },
 
+        https://www.infoq.com/presentations/continuations-java/
     ].forEach(addBookmark);
 }
