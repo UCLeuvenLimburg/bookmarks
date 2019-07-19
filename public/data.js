@@ -874,7 +874,21 @@ function createBookmarks(addBookmark) {
             url: `https://xunit.net/`,
             tags: [ `reference`, `testing` ],
         },
-
+        {
+            label: `Garbage Collection in Go: Part 1 - Semantics`,
+            url: `https://www.ardanlabs.com/blog/2018/12/garbage-collection-in-go-part1-semantics.html`,
+            tags: [ `go`, `technical` ],
+        },
+        {
+            label: `Garbage Collection in Go: Part 2 - GC Traces`,
+            url: `https://www.ardanlabs.com/blog/2019/05/garbage-collection-in-go-part2-gctraces.html`,
+            tags: [ `go`, `technical` ],
+        },
+        {
+            label: `Garbage Collection in Go: Part 2 - GC Pacing`,
+            url: `https://www.ardanlabs.com/blog/2019/07/garbage-collection-in-go-part3-gcpacing.html`,
+            tags: [ `go`, `technical` ],
+        },
 
     ].forEach(addBookmark);
 }
