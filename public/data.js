@@ -889,6 +889,12 @@ function createBookmarks(addBookmark) {
             url: `https://www.ardanlabs.com/blog/2019/07/garbage-collection-in-go-part3-gcpacing.html`,
             tags: [ `go`, `technical` ],
         },
+        {
+            label: `Pymunk`,
+            url: `http://www.pymunk.org/en/latest/`,
+            tags: [ `python`, `library` ],
+            description: `2D physics library for Python`,
+        },
 
     ].forEach(addBookmark);
 }
