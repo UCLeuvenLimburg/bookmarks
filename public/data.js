@@ -901,6 +901,6 @@ function createBookmarks(addBookmark) {
             tags: [ `java`, `technical`, `video` ],
         },
 
-        https://www.infoq.com/presentations/continuations-java/
+
     ].forEach(addBookmark);
 }
