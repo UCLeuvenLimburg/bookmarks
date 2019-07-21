@@ -900,7 +900,18 @@ function createBookmarks(addBookmark) {
             url: `https://www.infoq.com/presentations/continuations-java/`,
             tags: [ `java`, `technical`, `video` ],
         },
-
+        {
+            label: `Cairo`,
+            url: `https://www.cairographics.org/`,
+            tags: [ `Python`, `library` ],
+            description: `Cairo is a 2D graphics library with support for multiple output devices`,
+        },
+        {
+            label: `Algebraic Effects`,
+            url: `https://overreacted.io/algebraic-effects-for-the-rest-of-us/`,
+            tags: [ `technical`, `article` ],
+            description: `Explanation of algebraic effects`,
+        },
 
     ].forEach(addBookmark);
 }
