@@ -912,6 +912,12 @@ function createBookmarks(addBookmark) {
             tags: [ `technical`, `article` ],
             description: `Explanation of algebraic effects`,
         },
+        {
+            label: `Haxe`,
+            url: `https://haxe.org/`,
+            tags: [ `Haxe` ],
+        },
+
 
     ].forEach(addBookmark);
 }
