@@ -844,6 +844,12 @@ function createBookmarks(addBookmark) {
             description: `A collection of awesome Ruby libraries, tools, frameworks and software.`,
         },
         {
+            label: 'Awesome Elixir',
+            url: `https://github.com/h4cc/awesome-elixir`,
+            tags: [ 'Elixir', 'library' ],
+            description: `A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things.`,
+        },
+        {
             label: 'Go Performance',
             url: `https://github.com/dgryski/go-perfbook`,
             tags: [ 'Go' ],
