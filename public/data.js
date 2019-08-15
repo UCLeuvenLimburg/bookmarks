@@ -922,6 +922,7 @@ function createBookmarks(addBookmark) {
             label: `Haxe`,
             url: `https://haxe.org/`,
             tags: [ `Haxe` ],
+            description: `Cross-platform Toolkit`,
         },
         {
             label: `PyPI`,
