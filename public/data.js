@@ -923,7 +923,12 @@ function createBookmarks(addBookmark) {
             url: `https://haxe.org/`,
             tags: [ `Haxe` ],
         },
-
+        {
+            label: `PyPI`,
+            url: `https://pypi.org/`,
+            tags: [ `python` ],
+            description: ` Python Package Index`,
+        },
 
     ].forEach(addBookmark);
 }
