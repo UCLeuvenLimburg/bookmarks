@@ -813,6 +813,11 @@ function createBookmarks(addBookmark) {
             tags: ['article'],
             description: `A model that breaks down the principal elements of a REST approach into three steps`
         },
+        {
+            label: 'Building sustainable microservices, our opinions and advice',
+            url: `https://building.echo.co.uk/microservices-opinions-and-advice/`,
+            tags: ['article', 'microservices', 'go'],
+        },
 
     ].forEach(addBookmark);
 }
