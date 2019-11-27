@@ -782,6 +782,11 @@ function createBookmarks(addBookmark) {
             url: `https://golang.org/doc/effective_go.html`,
             tags: ['Go', 'free book'],
         },
+        {
+            label: "Sudoku Solver in Haskell",
+            url: `http://www.cs.nott.ac.uk/~pszgmh/sudoku.lhs`,
+            tags: ['Haskell', 'tutorial', 'algorithms'],
+        },
 
     ].forEach(addBookmark);
 }
