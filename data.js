@@ -785,7 +785,12 @@ function createBookmarks(addBookmark) {
         {
             label: "Sudoku Solver in Haskell",
             url: `http://www.cs.nott.ac.uk/~pszgmh/sudoku.lhs`,
-            tags: ['Haskell', 'tutorial', 'algorithms'],
+            tags: ['Haskell', 'tutorial', 'algorithms', 'AI'],
+        },
+        {
+            label: 'Paradigms of Artificial Intelligence Programming',
+            url: `https://github.com/norvig/paip-lisp`,
+            tags: ['Common Lisp', 'free book', 'AI']
         },
 
     ].forEach(addBookmark);
