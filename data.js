@@ -677,7 +677,7 @@ function createBookmarks(addBookmark) {
         {
             label: "Rouge",
             url: "http://rouge.jneen.net/",
-            tags: ['ruby'],
+            tags: ['Ruby'],
             description: `Code highlighter`,
         },
         {
