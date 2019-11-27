@@ -802,6 +802,11 @@ function createBookmarks(addBookmark) {
             url: `https://software.rajivprab.com/2018/04/29/myths-programmers-believe-about-cpu-caches/`,
             tags: ['article', 'hardware']
         },
+        {
+            label: 'How Netflix works',
+            url: `https://medium.com/refraction-tech-everything/how-netflix-works-the-hugely-simplified-complex-stuff-that-happens-every-time-you-hit-play-3a40c9be254b`,
+            tags: ['article']
+        }
 
     ].forEach(addBookmark);
 }
