@@ -792,6 +792,11 @@ function createBookmarks(addBookmark) {
             url: `https://github.com/norvig/paip-lisp`,
             tags: ['Common Lisp', 'free book', 'AI']
         },
+        {
+            label: 'Kaboom: an unusual Minesweeper',
+            url: `https://pwmarcz.pl/blog/kaboom/`,
+            tags: ['JavaScript', 'algorithms', 'article', 'AI']
+        },
 
     ].forEach(addBookmark);
 }
