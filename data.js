@@ -818,6 +818,11 @@ function createBookmarks(addBookmark) {
             url: `https://building.echo.co.uk/microservices-opinions-and-advice/`,
             tags: ['article', 'microservices', 'go'],
         },
+        {
+            label: 'From Nand to Tetris',
+            url: `https://www.nand2tetris.org/`,
+            tags: ['book', 'assembly'],
+        },
 
     ].forEach(addBookmark);
 }
