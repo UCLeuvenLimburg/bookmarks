@@ -797,6 +797,11 @@ function createBookmarks(addBookmark) {
             url: `https://pwmarcz.pl/blog/kaboom/`,
             tags: ['JavaScript', 'algorithms', 'article', 'AI']
         },
+        {
+            label: 'Myths Programmers Believe about CPU Caches',
+            url: `https://software.rajivprab.com/2018/04/29/myths-programmers-believe-about-cpu-caches/`,
+            tags: ['article', 'hardware']
+        },
 
     ].forEach(addBookmark);
 }
