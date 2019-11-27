@@ -806,7 +806,13 @@ function createBookmarks(addBookmark) {
             label: 'How Netflix works',
             url: `https://medium.com/refraction-tech-everything/how-netflix-works-the-hugely-simplified-complex-stuff-that-happens-every-time-you-hit-play-3a40c9be254b`,
             tags: ['article']
-        }
+        },
+        {
+            label: 'Richardson Maturity Model',
+            url: `https://martinfowler.com/articles/richardsonMaturityModel.html`,
+            tags: ['article'],
+            description: `A model that breaks down the principal elements of a REST approach into three steps`
+        },
 
     ].forEach(addBookmark);
 }
