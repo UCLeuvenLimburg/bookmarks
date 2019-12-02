@@ -823,6 +823,12 @@ function createBookmarks(addBookmark) {
             url: `https://www.nand2tetris.org/`,
             tags: ['book', 'assembly'],
         },
-
+        {
+            label: 'Files are Hard',
+            url: `httpshttp://danluu.com/file-consistency/`,
+            tags: ['article'],
+            description: `How to actually deal with files if you want to prevent data loss`,
+        },
+        
     ].forEach(addBookmark);
 }
